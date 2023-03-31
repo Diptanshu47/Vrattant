@@ -1,0 +1,257 @@
+/***********Other elments**********/
+
+
+body{
+    font-family: 'Fuzzy Bubbles', cursive;
+    background-color: darkblue;
+
+}
+
+
+h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    text-align: left;
+}
+
+
+h2{
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/*************Title**********************************/
+
+.img1{
+    width: 100%;
+    height: 715px;
+    opacity: 20%;
+}
+
+.bgimg{
+    width: auto;
+    background-color: black;
+}
+
+
+#title{
+    color: white;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.container{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 3%;
+}
+
+
+.navbar-brand{
+    font-family: 'Princess Sofia', cursive;
+    font-size: 2.5rem;
+
+}
+
+.navbar{
+    padding: 0 0 0 0;
+    margin-bottom: 100px;
+    background-color: darkblue;
+}
+
+.nav-item{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.nav-link{
+    color: wheat;
+    font-weight: 500;
+}
+
+
+.but1{
+    margin: 5% 3% 5% 0;
+}
+
+
+
+@media (max-width : 1000px)
+{
+    #title{
+        text-align: center;
+    }
+
+    #title h1{
+        text-align: center;
+    } 
+
+}
+
+/****************Featuers****************************/
+
+
+#features{
+    background-color: darkblue;
+    color: white;
+    padding: 7% 15%;
+    position: relative;
+    z-index: 2;
+}
+
+.frow{
+    margin-right: 0;
+}
+
+
+.dh3{
+    width: auto;
+    margin: auto;
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 1.5rem;
+}
+
+.pp{
+    width: auto;
+    margin: auto;
+    color: wheat;
+    margin-top: 10px;
+}
+
+.ig1{
+    width: 80px;
+    padding-bottom: 10px;
+}
+
+
+.frow{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+
+
+@media (min-device-width : 250px) and (max-device-width : 990px){
+    .pp{
+        width: 250px;
+        margin-bottom: 75px;
+    }
+
+    .frow{
+        padding-bottom: 0;
+    }
+}
+
+
+
+/***********Testimonials**************************/
+#testimonials {
+    text-align: center;
+    background-color: #4E31AA;
+    color: white;
+}
+
+
+
+.ig2{
+    width: 130px;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+.carousel-item{
+    padding: 7% 15%;
+    padding-top: 80px;
+}
+
+/******press************************************/
+
+#press{
+    background-color: #4E31AA;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+.img0{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/************pricing*****************************/
+
+#pricing{
+    background-color: darkblue;
+    padding: 100px;
+    text-align: center;
+}
+
+.patte{
+    padding: 3% 2%;
+}
+
+.someword{
+    color: white;
+}
+
+
+/************Call to Action*************************/
+
+#cta{
+    background-color: #4E31AA;
+    font-family: 'Montserrat' black;
+    font-weight: bolder;
+    text-align: center;
+    padding: 120px;
+    padding-top: 150px ;
+}
+
+.h3l{
+    width: 900px;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    font-weight: 700;
+}
+
+
+
+@media (max-width : 1000px) {
+    .h3l{
+        width: auto;
+    }
+    
+}
+
+/**************Footer*****************************/
+
+#footer{
+    background-color: white;
+    padding: 70px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+.social{
+    padding-bottom: 20px;
+}
+
+
+.lni{
+    padding-left: 10px;
+}
+
+/*******************************************************/
